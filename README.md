@@ -1,5 +1,4 @@
 # HR-Outreach
-# AutoApply — README
 
 A simple Python tool to send personalized job-application emails with your resume attached to a list of HR contacts.
 
@@ -18,7 +17,7 @@ A simple Python tool to send personalized job-application emails with your resum
 
 ## Quick Start (Windows)
 
-1. Clone or copy the project to a folder, e.g. `E:\Swappy\Projects\hrEmail`.
+1. Clone or copy the project to a folder, e.g. `E:\hrEmail`.
 
 2. Open PowerShell in that folder.
 
@@ -67,8 +66,8 @@ python send_personalized_resumes.py
 Create a file named `.env` in the project folder and add the following (replace values):
 
 ```
-SENDER_NAME=Swapnil Kale
-SENDER_EMAIL=swapnilkale2002@gmail.com
+SENDER_NAME=your_name
+SENDER_EMAIL=your_email@gmail.com
 SENDER_PASSWORD=your_app_password_here
 
 RESUME_PATH=resume_swapnil.pdf
